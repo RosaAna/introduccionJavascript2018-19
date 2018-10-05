@@ -1,6 +1,6 @@
 const fs = require('fs');
 const modulo = require('./modulos/manipularPersonas');
-
+let Persona =  require('./Persona.js');
 fs.readFile('./datos/datos.csv', 'utf8', function(err, contents) {
     if (err) throw err;
    
